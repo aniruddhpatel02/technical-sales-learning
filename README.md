@@ -48,6 +48,27 @@ This repository will document that learning process.
 - Forks
 - Open-source software
 
+### Day 2 — How Software Works
+
+**Concepts covered:**
+- Frontend vs. backend
+- Client and server
+- Databases
+- APIs
+- HTTP
+- Requests and responses
+- JSON
+- Authentication vs. authorization
+- Libraries and frameworks
+
+**Core mental model:**
+
+User → Frontend → API → Backend → Database → Response
+
+**Sales takeaway:**
+
+Technical fluency isn't about being able to engineer the customer's system. It's about understanding the environment well enough to recognize technical problems, ask intelligent questions, and connect those problems to business impact.
+
 ## Projects
 
 I'll add practical projects and technical product breakdowns as I progress.
