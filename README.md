@@ -69,6 +69,27 @@ User → Frontend → API → Backend → Database → Response
 
 Technical fluency isn't about being able to engineer the customer's system. It's about understanding the environment well enough to recognize technical problems, ask intelligent questions, and connect those problems to business impact.
 
+### Day 3 — APIs, HTTP & Integrations
+
+**Concepts covered:**
+- APIs and endpoints
+- HTTP methods: GET, POST, PUT/PATCH, DELETE
+- Requests and responses
+- HTTP status codes
+- API authentication and API keys
+- Rate limits
+- Integrations
+- Native integrations vs. APIs
+- Webhooks
+
+**Core mental model:**
+
+Application → API Request → Endpoint → Backend → Response → Application
+
+**Sales takeaway:**
+
+Understanding APIs helps me go beyond simply asking whether a product "integrates." I can better understand how systems exchange data, what technical requirements a buyer may have, and ask stronger discovery questions around integrations, scale, authentication, and existing workflows.
+
 ## Projects
 
 I'll add practical projects and technical product breakdowns as I progress.
