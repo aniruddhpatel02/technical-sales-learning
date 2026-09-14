@@ -90,6 +90,28 @@ Application → API Request → Endpoint → Backend → Response → Applicatio
 
 Understanding APIs helps me go beyond simply asking whether a product "integrates." I can better understand how systems exchange data, what technical requirements a buyer may have, and ask stronger discovery questions around integrations, scale, authentication, and existing workflows.
 
+### Day 4 — Cloud Infrastructure Fundamentals
+
+**Concepts covered:**
+- Cloud computing
+- AWS, Azure, and GCP
+- Servers and virtual machines
+- Compute and storage
+- Cloud regions and availability zones
+- Development, staging, and production environments
+- Deployments
+- Containers and Docker
+- Kubernetes
+- Managed services
+
+**Core mental model:**
+
+Code → GitHub → Build/Test → Deploy → Production → Cloud Infrastructure
+
+**Sales takeaway:**
+
+Cloud infrastructure gives companies scalability and flexibility, but growing infrastructure can also introduce complexity, reliability challenges, and operational overhead. Understanding the basic architecture helps me recognize technical pain and ask better questions about reliability, deployments, scale, and engineering time.
+
 ## Projects
 
 I'll add practical projects and technical product breakdowns as I progress.
