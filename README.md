@@ -112,6 +112,30 @@ Code → GitHub → Build/Test → Deploy → Production → Cloud Infrastructur
 
 Cloud infrastructure gives companies scalability and flexibility, but growing infrastructure can also introduce complexity, reliability challenges, and operational overhead. Understanding the basic architecture helps me recognize technical pain and ask better questions about reliability, deployments, scale, and engineering time.
 
+### Day 5 — DevOps, SRE & Observability
+
+**Concepts covered:**
+- DevOps
+- CI/CD
+- Site Reliability Engineering (SRE)
+- Incidents and downtime
+- Reliability
+- On-call engineering
+- Monitoring vs. observability
+- Logs, metrics, and traces
+- Telemetry
+- Alerts and alert fatigue
+- Root cause analysis
+- MTTR
+
+**Core mental model:**
+
+Code → CI/CD → Deployment → Production → Incident → Alert → Investigation → Root Cause → Fix → Recovery
+
+**Sales takeaway:**
+
+Detecting that something broke is only part of the problem. Engineering teams also need to understand what happened, identify the root cause, and restore service quickly. Technical discovery should uncover how incidents are detected, how engineers investigate them, how much time and engineering effort that process requires, and what the business impact is.
+
 ## Projects
 
 I'll add practical projects and technical product breakdowns as I progress.
