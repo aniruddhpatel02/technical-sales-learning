@@ -136,6 +136,31 @@ Code → CI/CD → Deployment → Production → Incident → Alert → Investig
 
 Detecting that something broke is only part of the problem. Engineering teams also need to understand what happened, identify the root cause, and restore service quickly. Technical discovery should uncover how incidents are detected, how engineers investigate them, how much time and engineering effort that process requires, and what the business impact is.
 
+### Day 6 — Microservices & Distributed Systems
+
+**Concepts covered:**
+- Monolithic vs. microservice architectures
+- Distributed systems
+- Service dependencies
+- Upstream and downstream services
+- Cascading failures
+- Latency
+- Timeouts and retries
+- Single points of failure
+- Redundancy
+- Load balancing
+- Scalability
+
+**Core mental model:**
+
+User → Service A → Service B → Service C → Database
+
+A problem in one dependency can affect multiple upstream services, making the symptom visible somewhere completely different from the actual root cause.
+
+**Sales takeaway:**
+
+As software becomes more distributed, identifying that something is broken is not necessarily the same as identifying what caused it. Understanding dependencies helps me ask better questions about how engineering teams investigate incidents, trace problems across services, and determine root cause.
+
 ## Projects
 
 I'll add practical projects and technical product breakdowns as I progress.
