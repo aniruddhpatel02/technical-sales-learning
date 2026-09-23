@@ -161,6 +161,33 @@ A problem in one dependency can affect multiple upstream services, making the sy
 
 As software becomes more distributed, identifying that something is broken is not necessarily the same as identifying what caused it. Understanding dependencies helps me ask better questions about how engineering teams investigate incidents, trace problems across services, and determine root cause.
 
+### Day 7 — Databases, Caching & Data Flow
+
+**Concepts covered:**
+- Databases
+- Tables, rows, and columns
+- SQL and relational databases
+- NoSQL databases
+- Database queries
+- Indexes
+- Reads and writes
+- Caching
+- Redis
+- Cache hits and misses
+- Stale data
+- Data flow
+- Database scaling and performance
+
+**Core mental model:**
+
+User → API → Backend/Services → Cache → Database → Response
+
+Applications depend on data moving efficiently across multiple components. A slowdown at the data layer can surface as API latency or poor application performance even when the user never interacts directly with the database.
+
+**Sales takeaway:**
+
+Database performance is not just an engineering metric. Slow queries, overloaded systems, or inefficient data flows can affect application performance, customer experience, engineering time, and ultimately the business. Understanding the data layer helps me ask better questions about where bottlenecks occur and how teams investigate them.
+
 ## Projects
 
 I'll add practical projects and technical product breakdowns as I progress.
