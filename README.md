@@ -188,6 +188,45 @@ Applications depend on data moving efficiently across multiple components. A slo
 
 Database performance is not just an engineering metric. Slow queries, overloaded systems, or inefficient data flows can affect application performance, customer experience, engineering time, and ultimately the business. Understanding the data layer helps me ask better questions about where bottlenecks occur and how teams investigate them.
 
+### Day 8 — Hands-On API Integration
+
+**Concepts applied:**
+- REST APIs
+- API endpoints
+- GET and POST requests
+- HTTP responses
+- JSON request and response data
+- Query parameters
+- HTTP status codes
+- Response time / latency
+- API error handling
+- Using Postman to test API requests
+
+**What I did:**
+
+I moved from learning about APIs conceptually to interacting with one directly using Postman and JSONPlaceholder.
+
+I sent GET requests to retrieve data, used query parameters to filter the information returned, sent a POST request with JSON data to simulate creating a new resource, and intentionally made an unsuccessful request to see how the API communicated an error.
+
+This gave me hands-on experience with the request → endpoint → response process and helped me understand how two software systems can exchange information through an API.
+
+**Status codes observed:**
+- `200 OK` — Request completed successfully
+- `201 Created` — New resource successfully created/simulated
+- `404 Not Found` — Requested resource could not be found
+
+**Core mental model:**
+
+Client → HTTP Request → API Endpoint → Server → HTTP Response → JSON → Client
+
+**Sales takeaway:**
+
+Working with an API directly helped me understand that an integration conversation goes beyond asking whether an API exists. Technical buyers may need to understand which endpoints are available, what data can be read or written, how requests are authenticated, what the response format looks like, how errors are handled, what rate limits exist, and whether the API can support their expected volume.
+
+**Practical Project:**
+
+`api-integration-exploration` — Hands-on exploration of API requests, JSON responses, HTTP status codes, query parameters, and integrations using Postman.
+
 ## Projects
 
 I'll add practical projects and technical product breakdowns as I progress.
