@@ -227,6 +227,31 @@ Working with an API directly helped me understand that an integration conversati
 
 `api-integration-exploration` — Hands-on exploration of API requests, JSON responses, HTTP status codes, query parameters, and integrations using Postman.
 
+### Day 9 — Authentication, Authorization & API Security
+
+**Concepts covered:**
+- Authentication vs. authorization
+- API keys
+- Access tokens and bearer tokens
+- OAuth
+- Permission scopes
+- Role-Based Access Control (RBAC)
+- Principle of least privilege
+- API credential security
+- 401 vs. 403 responses
+
+**Core mental model:**
+
+Authentication → Who are you?
+
+Authorization → What are you allowed to do?
+
+A successful integration needs more than connectivity. Systems also need a secure way to establish identity and control what users or applications are permitted to access.
+
+**Sales takeaway:**
+
+Technical integration conversations can quickly become security conversations. Enterprise buyers may care about how an API authenticates requests, what permissions an integration requires, what data it can access, and whether access follows least-privilege principles. Understanding these concepts helps me recognize security concerns earlier and involve the right technical resources without overstating what I know.
+
 ## Projects
 
 I'll add practical projects and technical product breakdowns as I progress.
